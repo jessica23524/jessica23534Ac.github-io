@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.profile-card {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.profile-card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card h2 {
+  font-size: 1rem;
+  color: #a0a0a0;
+  margin-bottom: 1rem;
+}
+
+.profile-card p {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+/* Estilo inicial oscuro de los botones */
+.profile-card a {
+  display: block;
+  background-color: #333; /* Color inicial oscuro */
+  color: #fff;
+  text-decoration: none;
+  padding: 0.75rem;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Cambio a verde al hacer hover */
+.profile-card a:hover {
+  background-color: #c3f11c; /* Cambia a verde al pasar el mouse */
+  color: black;
+}
+
+
